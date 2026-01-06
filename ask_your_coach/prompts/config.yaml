@@ -1,0 +1,25 @@
+default_generation:
+  max_tokens: 128
+  temperature: 0.2
+  top_p: 0.9
+
+time_management:
+  template_file: time_management.txt
+  generation:
+    max_tokens: 64
+    temperature: 0.1
+    top_p: 0.8
+
+general_coaching:
+  template_file: general_coaching.txt
+  generation:
+    max_tokens: 128
+    temperature: 0.3
+    top_p: 0.9
+
+general_coaching_de:
+  template_file: general_coaching_de.txt
+  generation:
+    max_tokens: 140
+    temperature: 0.35
+    top_p: 0.9

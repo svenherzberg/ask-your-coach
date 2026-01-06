@@ -1,0 +1,20 @@
+# Example configuration for Ask‑Your‑Coach
+# Copy this file to `config.yaml` in the project root or put user config in
+# ~/.config/ask-your-coach/config.yaml
+
+# LMStudio local endpoint (optional). If set, LMStudio will be used as primary LLM.
+lmstudio_url: "http://localhost:1234"
+lmstudio_model: "openai/gpt-oss-20b"
+
+# Local llama.cpp model path (gguf). Used as fallback or for low‑latency runs.
+ayc_ll_model: "/path/to/7B-q4_0.gguf"
+
+# Number of threads for CPU inference (llama.cpp)
+n_threads: 8
+
+# TTS settings
+tts_sample_rate: 22050
+tts_player: null
+
+# Default prompt mode
+default_mode: "general_coaching"
